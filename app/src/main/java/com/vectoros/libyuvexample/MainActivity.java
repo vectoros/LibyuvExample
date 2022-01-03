@@ -33,4 +33,9 @@ public class MainActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
+
+
+    public native int nativeConvertFromI420();
+
+    public native int nativeConvertToI420();
 }
